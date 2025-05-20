@@ -61,3 +61,27 @@ https://github.com/user-attachments/assets/1098aab4-d620-49ad-879e-53da171c40bc
          $USER ALL=(ALL) NOPASSWD: /opt/ibc/twsstart.sh
          $USER ALL=(ALL) NOPASSWD: /opt/ibc/stop.sh
          ```
+5.  **Configuration:**
+    * The configuration file can be found and updated in `ib_async_trading_bot.objects.py`
+    * To Specify a trained model path, you can enter the path under  `ib_async_trading_bot.objects` -> `AIModelRLObject` -> `model_path`
+
+---
+
+## ▶️ Usage
+
+1.  **Activate your virtual environment (if used).**
+2.  **Run the main bot script:**
+    ```bash
+    python run.py
+    ```
+
+The bot will then:
+* Start the TWS Broker
+* Connect to Interactive Brokers.
+* Start downloading market data for the specified contract every 5 seconds.
+* Feed the data to the Stable Baselines3 model.
+* Execute trades based on the model's output.
+
+**Check the console output for logs, connection status, data updates, and trade actions.**
+
+---
