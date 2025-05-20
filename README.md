@@ -32,7 +32,7 @@ https://github.com/user-attachments/assets/1098aab4-d620-49ad-879e-53da171c40bc
 1.  **Clone the repository:**
     ```bash
     git clone [https://github.com/jjaskirat/ib_async_trading_bot.git](https://github.com/jjaskirat/ib_async_trading_bot.git)
-    cd your-repo-name
+    cd ib_async_trading_bot
     ```
 
 2.  **Install dependencies:**
@@ -54,5 +54,9 @@ https://github.com/user-attachments/assets/1098aab4-d620-49ad-879e-53da171c40bc
 4.  **IBC Setup**
    * Follow the Instructions [https://github.com/IbcAlpha/IBC/blob/master/userguide.md](https://github.com/IbcAlpha/IBC/blob/master/userguide.md)
    * You need to run the files `/opt/ibc/twsstart.sh` and `/opt/ibc/stop.sh` without sudo
-       * Open a Terminal window and type: `sudo visudo`
-       * In the bottom of the file, add the following line: `$USER ALL=(ALL) NOPASSWD: ALL`
+       * Open a Terminal window and type: `sudo vim /etc/sudoers`
+       * In the bottom of the file, add the following lines:
+             ```
+             $USER ALL=(ALL) NOPASSWD: /opt/ibc/twsstart.sh
+             $USER ALL=(ALL) NOPASSWD: /opt/ibc/stop.sh
+             ```
