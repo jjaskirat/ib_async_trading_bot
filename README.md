@@ -56,7 +56,7 @@ https://github.com/user-attachments/assets/1098aab4-d620-49ad-879e-53da171c40bc
    * You need to run the files `/opt/ibc/twsstart.sh` and `/opt/ibc/stop.sh` without sudo
        * Open a Terminal window and type: `sudo vim /etc/sudoers`
        * In the bottom of the file, add the following lines:
-             ```
+             ```bash
              $USER ALL=(ALL) NOPASSWD: /opt/ibc/twsstart.sh
              $USER ALL=(ALL) NOPASSWD: /opt/ibc/stop.sh
              ```
