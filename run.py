@@ -26,6 +26,6 @@ if __name__ == "__main__":
 
     logger.info("### Starting Interactive Brokers Interface Engine ###")
     try:
-        engine.run(interface_obj, mode='demo') # Use 'deploy' for actual IB connection
+        engine.run(interface_obj, mode='deploy') # Use 'deploy' for actual IB connection
     finally:
         logger.info("### Interactive Brokers Interface Engine Finished ###")
