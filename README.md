@@ -45,6 +45,7 @@ https://github.com/user-attachments/assets/1098aab4-d620-49ad-879e-53da171c40bc
 
 3.  **Interactive Brokers Setup:**
     * Ensure you have **Trader Workstation (TWS)** or **IB Gateway** installed and running.
+    * [https://www.interactivebrokers.com/en/trading/ibgateway-stable.php](https://www.interactivebrokers.com/en/trading/ibgateway-stable.php)
     * Configure TWS/Gateway to allow API connections:
         * Go to `File > Global Configuration > API > Settings`.
         * Enable "Enable ActiveX and Socket Clients".
