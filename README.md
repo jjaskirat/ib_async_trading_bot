@@ -85,3 +85,32 @@ The bot will then:
 **Check the console output for logs, connection status, data updates, and trade actions.**
 
 ---
+
+## ⚠️ Disclaimer
+
+**Trading financial instruments involves substantial risk of loss and is not suitable for every investor. The creators of this bot and the associated software provide this code for educational and informational purposes only. We are not financial advisors.**
+
+* **Use this bot at your own risk.**
+* **Past performance is not indicative of future results.**
+* **Ensure you understand the risks involved and never trade with money you cannot afford to lose.**
+* **It is highly recommended to test this bot extensively in a paper trading account before considering live trading.**
+* **The authors are not responsible for any financial losses incurred from using this software.**
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! If you'd like to contribute, please:
+
+1.  Fork the repository.
+2.  Create a new branch (`git checkout -b feature/your-feature-name`).
+3.  Make your changes.
+4.  Commit your changes (`git commit -am 'Add some feature'`).
+5.  Push to the branch (`git push origin feature/your-feature-name`).
+6.  Create a new Pull Request.
+
+Please ensure your code adheres to good coding practices and includes relevant documentation or comments.
+
+---
+
+Happy Trading (Responsibly)! 🎉
